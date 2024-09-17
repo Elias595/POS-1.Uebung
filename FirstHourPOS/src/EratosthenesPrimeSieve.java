@@ -27,6 +27,7 @@ public class EratosthenesPrimeSieve implements PrimeSieve{
 
     @Override
     public void printPrimes() {
+        //Zahlen werden ausgegeben auf der Konsole
         for (int i = 0; i < obergrenze; i++){
             if (isPrime(i)){
                 System.out.println(i);
