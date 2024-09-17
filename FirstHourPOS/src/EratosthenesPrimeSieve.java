@@ -8,6 +8,7 @@ public class EratosthenesPrimeSieve implements PrimeSieve{
     @Override
     public boolean isPrime(int p) {
         if (p < 2) {
+            //damit die Zahl 1 ausgeschlossen wird
             return false;
         }
 
